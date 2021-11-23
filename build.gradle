@@ -1,0 +1,17 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.0.RELEASE'//ADICIONANDO O PLUGIN SPRING FRAMEWORK AO PROJETO NA VERSÃO 2.3.0 RELEASE
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'//ADICIONANDO O PLUGIN DEPENDENCY MANEGEMENT AO PROJETO NA VERSÃO 1.0.9 RELEASE
+    id 'java'//ADICIONANDO O PLUGIN DO JAVA AO PROJETO
+}
+
+repositories {
+    jcenter()//DECLARANDO O REPOSITÓRIO DO JCENTER PARA O PROJETO
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'//ADICIONANDO DEPENDENCIA STARTER WEB DO SPRING FRAMEWORK
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'//ADICIONANDO DEPENDENCIA STARTER DATA JPA DO SPRING FRAMEWORK
+    implementation 'mysql:mysql-connector-java'//ADICIONANDO DEPENDENCIA MYSQL CONNECTOR JAVA DO MYSQL
+    implementation 'javax.servlet:jstl:1.2'//ADICIONANDO DEPENDENCIA SERVLET DO JAVA
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'//ADICIONANDO DEPENDENCIA TOMCAT EMBED JASPER DO APACHE
+}

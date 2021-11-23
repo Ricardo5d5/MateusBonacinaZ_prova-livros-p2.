@@ -1,0 +1,4 @@
+body { /* DEFININDO O ESTILO UTILIZADO NA TAG BODY */
+    font-family: sans-serif; /* SELECIONA A FONTE SANS-SERIF COMO FONTE DO BODY */
+    color: darkslateblue; /* ESCOLHE A COR AZUL COMO COR DO BODY */
+} /* FECHA O ESTILO DO BODY */
